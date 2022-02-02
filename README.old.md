@@ -14,7 +14,13 @@ a. In the Product.jsx file import {Card, CardMedia, CardContent, CardActions, Ty
 b. Then import { AddShoppingCart } from '@material-ui/icons'
 this will add the image of the cart in the upper right.
 c. return (<Card></Card> components) to the Products.jsx file
-3-Navbar,
+
+3-Navbar
+    import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu Typography}
+    from material-ui/core 
+    Then import { ShoppingCart } icon from material-ui/icons
+    <AppBar in a fixed position, with a color that = inherit and in a {class style called appBar}>
+    <Toolbar> component is used and between the <Toolbar> is <Typography>
 4-Commerce Products,
 5-Add to Cart,
 6-Cart Layout
